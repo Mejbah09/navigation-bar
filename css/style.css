@@ -1,0 +1,65 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+
+.hedar{
+    color:white;
+    background-color: #445780 ;
+    padding: 50px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKVixT2TLbw_Rgp_xOTHRAK_X39m15XqzUAQ&usqp=CAU);
+    background-repeat:no-repeat;
+    background-position: right ;
+   
+}
+
+nav{
+    color:white;
+    background-color: black;
+   
+}
+nav ul li{
+     display: inline-block;
+     color:blueviolet;
+     position: relative;
+    
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color:rgb(245, 242, 248);
+    font-family: fantasy;
+    background-color:rgb(40, 88, 151);
+    font-size:x-large;
+     padding:15px 25.6px;
+     display: inline-block;
+     transition: 0.7s;
+}
+nav ul li a:hover{
+    
+    color:red;
+    background-color:black;
+}
+nav ul li ul{
+    position: absolute;
+    top: 120%;
+    /* left:150px; */
+    visibility: hidden;
+    opacity:-10;
+    transition: 0.8s;
+}
+nav ul li:hover ul{
+   visibility: visible;
+   opacity:2;
+    top:100%;
+    /* transition:3s; */
+}
+
+nav ul li ul li{
+    display: block;
+
+}
